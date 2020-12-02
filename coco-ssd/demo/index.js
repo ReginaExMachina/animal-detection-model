@@ -18,11 +18,16 @@ import * as cocoSsd from '@tensorflow-models/coco-ssd'
 import * as cpu from '@tensorflow/tfjs-backend-cpu'
 import * as webgl from '@tensorflow/tfjs-backend-webgl'
 
-import imageURL from './images/test-set-0/200.jpeg';
-import image2URL from './images/test-set-0/201.jpeg';
+import image0URL from './images/test-set-0/200.jpeg';
+import image1URL from './images/test-set-0/201.jpeg';
+import image2URL from './images/test-set-0/202.jpeg';
+import image3URL from './images/test-set-0/203.jpeg';
+import image4URL from './images/test-set-0/204.jpeg';
+import image5URL from './images/test-set-0/205.jpeg';
 
-const images = [imageURL, image2URL];
+const images = [image0URL, image1URL, image2IRL, image3URL, image4URL, image5URL];
 
+// Testing Array Construction
 console.log(images[0]);
 console.log(images[1]);
 console.log(images[2]);
