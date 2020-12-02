@@ -35,7 +35,8 @@ window.onload = () => modelPromise = cocoSsd.load();
 
 const button = document.getElementById('toggle');
 button.onclick = () => {
-  image.src = image.src.endsWith(imageURL) ? image2URL : imageURL;
+  //image.src = image.src.endsWith(imageURL) ? image2URL : imageURL;
+  image.src = images[0];
 };
 
 const select = document.getElementById('base_model');
