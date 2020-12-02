@@ -35,6 +35,8 @@ console.log(images[3]);
 console.log(images[4]);
 console.log(images[5]);
 
+var index = 0;
+
 let modelPromise;
 let baseModel = 'lite_mobilenet_v2';
 
@@ -43,7 +45,10 @@ window.onload = () => modelPromise = cocoSsd.load();
 const button = document.getElementById('toggle');
 button.onclick = () => {
   //image.src = image.src.endsWith(imageURL) ? image2URL : imageURL;
-  image.src = images[2];
+  //var index = images.indexOf(image.src);
+  index = index+1;
+  console.log(index); 
+  image.src = images[index];
 };
 
 const select = document.getElementById('base_model');
@@ -56,7 +61,7 @@ select.onchange = async (event) => {
 
 const image = document.getElementById('image');
 //image.src = imageURL;
-image.src = images[1];
+image.src = images[index];
  
 const runButton = document.getElementById('run');
 runButton.onclick = async () => {
