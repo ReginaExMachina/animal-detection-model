@@ -18,8 +18,8 @@ import * as cocoSsd from '@tensorflow-models/coco-ssd'
 import * as cpu from '@tensorflow/tfjs-backend-cpu'
 import * as webgl from '@tensorflow/tfjs-backend-webgl'
 
-import imageURL from './image1.jpg';
-import image2URL from './image2.jpg';
+import imageURL from './images/test-set-1/001.jpeg';
+import image2URL from './images/test-set-1/002.jpeg';
 
 let modelPromise;
 let baseModel = 'lite_mobilenet_v2';
