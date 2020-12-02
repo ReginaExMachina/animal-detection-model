@@ -44,10 +44,7 @@ window.onload = () => modelPromise = cocoSsd.load();
 
 const button = document.getElementById('toggle');
 button.onclick = () => {
-  //image.src = image.src.endsWith(imageURL) ? image2URL : imageURL;
-  //var index = images.indexOf(image.src);
   index = index+1;
-  console.log(index); 
   image.src = images[index];
 };
 
@@ -60,7 +57,6 @@ select.onchange = async (event) => {
 };
 
 const image = document.getElementById('image');
-//image.src = imageURL;
 image.src = images[index];
  
 const runButton = document.getElementById('run');
