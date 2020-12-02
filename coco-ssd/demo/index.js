@@ -21,12 +21,7 @@ import * as webgl from '@tensorflow/tfjs-backend-webgl'
 import imageURL from './images/test-set-0/200.jpeg';
 import image2URL from './images/test-set-0/201.jpeg';
 
-// Get all images
-function importAll(r) {
-  return r.keys().map(r);
-}
-
-const images = importAll(require.context('./test-set-0/', false, /\.(png|jpe?g|svg)$/));
+const images = [imageURL, image2URL];
 
 console.log(images[0]);
 
