@@ -25,7 +25,7 @@ import image3URL from './images/test-set-0/203.jpeg';
 import image4URL from './images/test-set-0/204.jpeg';
 import image5URL from './images/test-set-0/205.jpeg';
 
-const images = [image0URL, image1URL, image2IRL, image3URL, image4URL, image5URL];
+const images = [image0URL, image1URL, image2URL, image3URL, image4URL, image5URL];
 
 // Testing Array Construction
 console.log(images[0]);
