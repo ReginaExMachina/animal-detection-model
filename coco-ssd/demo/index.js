@@ -28,6 +28,8 @@ function importAll(r) {
 
 const images = importAll(require.context('./test-set-0/', false, /\.(png|jpe?g|svg)$/));
 
+console.log(images[0]);
+
 let modelPromise;
 let baseModel = 'lite_mobilenet_v2';
 
@@ -36,7 +38,7 @@ window.onload = () => modelPromise = cocoSsd.load();
 const button = document.getElementById('toggle');
 button.onclick = () => {
   //image.src = image.src.endsWith(imageURL) ? image2URL : imageURL;
-  image.src = images[0];
+  image.src = images[1];
 };
 
 const select = document.getElementById('base_model');
@@ -48,8 +50,9 @@ select.onchange = async (event) => {
 };
 
 const image = document.getElementById('image');
-image.src = imageURL;
-
+//image.src = imageURL;
+image.src = images[2];
+ 
 const runButton = document.getElementById('run');
 runButton.onclick = async () => {
   const model = await modelPromise;
