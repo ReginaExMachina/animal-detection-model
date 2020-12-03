@@ -1,6 +1,6 @@
-# Object Detection (COCO-SSD) Demo
+# Animal Detection Model (COCO-SSD)
 
-This demo allows you to try out object detection on a couple of preset images using different base models.
+Based on [COCO-SSD Demo](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd/demo).
 
 ## Setup
 
@@ -23,7 +23,7 @@ the demo app in your browser.
 yarn watch
 ```
 
-## If you are developing the model locally and want to test the changes in the demo
+Testing Local Changes:
 
 `cd` into the coco-ssd/ folder:
 
