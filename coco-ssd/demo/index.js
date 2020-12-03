@@ -66,7 +66,9 @@ runButton.onclick = async () => {
   console.time('predict1');
   const result = await model.detect(image);
   console.timeEnd('predict1');
-  console.log(result[0].class);
+  for (let i = 0; i < result.length; i++) {
+    console.log(result[i].class);
+  }
 
   const c = document.getElementById('canvas');
   const context = c.getContext('2d');
