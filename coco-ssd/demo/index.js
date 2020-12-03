@@ -71,7 +71,7 @@ import image50URL from './images/test-set-2/100.jpeg';
 
 
 const images = [image1URL, image2URL, image3URL, image4URL, image5URL, image6URL, image7URL, image8URL, image9URL, image10URL,
-                image11URL, image12URL, image13URL, image14URL, image15URL, image16URL, image17URL, image18URL, imageURL19, image20URL,
+                image11URL, image12URL, image13URL, image14URL, image15URL, image16URL, image17URL, image18URL, image19URL, image20URL,
                 image21URL, image22URL, image23URL, image24URL, image25URL, image26URL, image27URL, image28URL, image29URL, image30URL,
                 image31URL, image32URL, image33URL, image34URL, image35URL, image36URL, image37URL, image38URL, image39URL, image40URL,
                 image41URL, image42URL, image43URL, image44URL, image45URL, image46URL, image47URL, image48URL, image49URL, image50URL];
