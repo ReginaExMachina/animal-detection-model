@@ -18,14 +18,63 @@ import * as cocoSsd from '@tensorflow-models/coco-ssd'
 import * as cpu from '@tensorflow/tfjs-backend-cpu'
 import * as webgl from '@tensorflow/tfjs-backend-webgl'
 
-import image0URL from './images/test-set-0/200.jpeg';
-import image1URL from './images/test-set-0/201.jpeg';
-import image2URL from './images/test-set-0/202.jpeg';
-import image3URL from './images/test-set-0/203.jpeg';
-import image4URL from './images/test-set-0/204.jpeg';
-import image5URL from './images/test-set-0/205.jpeg';
+import image1URL from './images/test-set-1/001.jpeg';
+import image2URL from './images/test-set-1/002.jpeg';
+import image3URL from './images/test-set-1/003.jpeg';
+import image4URL from './images/test-set-1/004.jpeg';
+import image5URL from './images/test-set-1/005.jpeg';
+import image6URL from './images/test-set-1/006.jpeg';
+import image7URL from './images/test-set-1/007.jpeg';
+import image8URL from './images/test-set-1/008.jpeg';
+import image9URL from './images/test-set-1/009.jpeg';
+import image10URL from './images/test-set-1/010.jpeg';
+import image11URL from './images/test-set-1/011.jpeg';
+import image12URL from './images/test-set-1/012.jpeg';
+import image13URL from './images/test-set-1/013.jpeg';
+import image14URL from './images/test-set-1/014.jpeg';
+import image15URL from './images/test-set-1/015.jpeg';
+import image16URL from './images/test-set-1/016.jpeg';
+import image17URL from './images/test-set-1/017.jpeg';
+import image18URL from './images/test-set-1/018.jpeg';
+import image19URL from './images/test-set-1/019.jpeg';
+import image20URL from './images/test-set-1/020.jpeg';
+import image21URL from './images/test-set-1/021.jpeg';
+import image22URL from './images/test-set-1/022.jpeg';
+import image23URL from './images/test-set-1/023.jpeg';
+import image24URL from './images/test-set-1/024.jpeg';
+import image25URL from './images/test-set-1/025.jpeg';
+import image26URL from './images/test-set-1/026.jpeg';
+import image27URL from './images/test-set-1/027.jpeg';
+import image28URL from './images/test-set-1/028.jpeg';
+import image29URL from './images/test-set-1/029.jpeg';
+import image30URL from './images/test-set-1/030.jpeg';
+import image31URL from './images/test-set-1/031.jpeg';
+import image32URL from './images/test-set-1/032.jpeg';
+import image33URL from './images/test-set-1/033.jpeg';
+import image34URL from './images/test-set-1/034.jpeg';
+import image35URL from './images/test-set-1/035.jpeg';
+import image36URL from './images/test-set-1/036.jpeg';
+import image37URL from './images/test-set-1/037.jpeg';
+import image38URL from './images/test-set-1/038.jpeg';
+import image39URL from './images/test-set-1/039.jpeg';
+import image40URL from './images/test-set-1/040.jpeg';
+import image41URL from './images/test-set-1/041.jpeg';
+import image42URL from './images/test-set-1/042.jpeg';
+import image43URL from './images/test-set-1/043.jpeg';
+import image44URL from './images/test-set-1/044.jpeg';
+import image45URL from './images/test-set-1/045.jpeg';
+import image46URL from './images/test-set-1/046.jpeg';
+import image47URL from './images/test-set-1/047.jpeg';
+import image48URL from './images/test-set-1/048.jpeg';
+import image49URL from './images/test-set-1/049.jpeg';
+import image50URL from './images/test-set-1/050.jpeg';
 
-const images = [image0URL, image1URL, image2URL, image3URL, image4URL, image5URL];
+
+const images = [image1URL, image2URL, image3URL, image4URL, image5URL, image6URL, image7URL, image8URL, image9URL, image10URL,
+                image11URL, image12URL, image13URL, image14URL, image15URL, image16URL, image17URL, image18URL, imageURL19, image20URL,
+                image21URL, image22URL, image23URL, image24URL, image25URL, image26URL, image27URL, image28URL, image29URL, image30URL,
+                image31URL, image32URL, image33URL, image34URL, image35URL, image36URL, image37URL, image38URL, image39URL, image40URL,
+                image41URL, image42URL, image43URL, image44URL, image45URL, image46URL, image47URL, image48URL, image49URL, image50URL];
 
 // Testing Array Construction
 console.log(images[0]);
